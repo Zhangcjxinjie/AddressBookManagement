@@ -1,0 +1,3 @@
+C:/Users/Xinjie Zhang/CLionProjects/AddressBookManagement/cmake-build-debug/CMakeFiles/AddressBookManagement.dir
+C:/Users/Xinjie Zhang/CLionProjects/AddressBookManagement/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Xinjie Zhang/CLionProjects/AddressBookManagement/cmake-build-debug/CMakeFiles/rebuild_cache.dir
