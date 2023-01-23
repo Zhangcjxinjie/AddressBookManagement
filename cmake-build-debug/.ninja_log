@@ -1,13 +1,5 @@
 # ninja log v5
-310	395	6961778522989980	AddressBookManagement.exe	4e54661dc7365cae
-1	408	6961775145200498	CMakeFiles/AddressBookManagement.dir/main.cpp.obj	f067b3491ed15b28
-2	309	6961778522164922	CMakeFiles/AddressBookManagement.dir/method.cpp.obj	f43d8f0a6a94f1ee
-1	148	6961807458825772	build.ninja	da9742abf7b2f906
-2	289	6961807564501065	CMakeFiles/AddressBookManagement.dir/main.cpp.obj	f067b3491ed15b28
-289	371	6961807565287023	AddressBookManagement.exe	7c4af6a77e9c5720
-2	268	6961808880528227	CMakeFiles/AddressBookManagement.dir/main.cpp.obj	f067b3491ed15b28
-269	349	6961808881303428	AddressBookManagement.exe	7c4af6a77e9c5720
-3	281	6961814678821617	CMakeFiles/AddressBookManagement.dir/main.cpp.obj	f067b3491ed15b28
-281	365	6961814679633099	AddressBookManagement.exe	7c4af6a77e9c5720
-2	284	6961815631260355	CMakeFiles/AddressBookManagement.dir/main.cpp.obj	f067b3491ed15b28
 284	364	6961815632035489	AddressBookManagement.exe	7c4af6a77e9c5720
+2	284	6961815631260355	CMakeFiles/AddressBookManagement.dir/main.cpp.obj	f067b3491ed15b28
+2	309	6961778522164922	CMakeFiles/AddressBookManagement.dir/method.cpp.obj	f43d8f0a6a94f1ee
+1	148	6961877096640288	build.ninja	da9742abf7b2f906
