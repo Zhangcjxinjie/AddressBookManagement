@@ -2,6 +2,7 @@
 // Created by Xinjie Zhang on 1/23/2023.
 //
 #include <iostream>
+#include <stdlib.h>
 using namespace std;
 
 // Print out the menu
@@ -63,8 +64,8 @@ void addPerson(struct AddressBooks * abs){
         // refresh size of the address book
         abs->m_Size ++;
         cout << "add person success!"<<endl;
-        system("pause");
-        system("cls");
+        system("PAUSE");
+        system("CLS");
     }
 }
 void showPerson(struct AddressBooks * abs){
@@ -84,13 +85,73 @@ void showPerson(struct AddressBooks * abs){
     }
 
 }
+// delete all person
+
+void deleteAllPerson(struct AddressBooks * abs){
+    abs->m_Size = 0;
+    cout<<"delete all person success!"<<endl;
+    system("PAUSE");
+    system("CLS");
+}
+// find person
+void findPerson(struct AddressBooks * abs) {
+    string name;
+    cout << "Please enter the name you want to find: " << endl;
+    cin >> name;
+    for (int i = 0; i < abs->m_Size; i++) {
+        if (abs->personArr[i].m_Name == name) {
+            cout << "find person success!" << endl;
+            cout << "name\tsex  \tage\tphone number\taddress" << endl;
+            cout << abs->personArr[i].m_Name << "\t";
+            if (abs->personArr[i].m_Sex == 1) {
+                cout << "male\t";
+            } else {
+                cout << "female\t";
+            }
+            cout << abs->personArr[i].m_age << "\t";
+            cout << abs->personArr[i].m_phone << "\t";
+            cout << abs->personArr[i].m_address << endl;
+            cout << endl;
+        }
+    }
+}
+// delete person
+void deletePerson(struct AddressBooks * abs){
+    string name;
+    cout << "Please enter the name you want to delete: " << endl;
+    cin >> name;
+    for (int i = 0; i < abs->m_Size; i++) {
+        if (abs->personArr[i].m_Name == name) {
+            for(int j = i ; j < abs->m_Size;j++){
+                abs->personArr[j] = abs->personArr[j+1];
+            }
+            abs->m_Size--;
+            cout << "delete person success!" << endl;
+            system("PAUSE");
+            system("CLS");
+        }
+    }
+}
+// edit person
+void editPerson(struct AddressBooks * abs){
+    string name;
+    cout << "Please enter the name you want to edit: " << endl;
+    cin >> name;
+    for (int i = 0; i < abs->m_Size; i++) {
+        if (abs->personArr[i].m_Name == name) {
+            cout << "Please enter his/her name: " << endl;
+            cin >> name;
+            abs->personArr[i].m_Name = name;
+        }
+    }
+}
 int main() {
     //declare a struct AddressBook
     AddressBooks abs;
     //no person now so the size is 0;
     abs.m_Size = 0;
     int userSelect = INT_MIN;
-    while(true) {
+    while (true) {
         //print the menu
         showMenu();
         cin >> userSelect;
@@ -102,12 +163,17 @@ int main() {
                 showPerson(&abs);
                 break;
             case 3: //delete contact person
+                deletePerson(&abs);
+
                 break;
             case 4: //find contact person
+                findPerson(&abs);
                 break;
             case 5: //edit contact person
+                editPerson(&abs);
                 break;
             case 6: //delete all contact person
+                deleteAllPerson(&abs);
                 break;
             case 0://quit address book
                 cout << "see you next time :)" << endl;
