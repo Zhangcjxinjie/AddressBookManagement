@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "AddressBookManagement"
+  "AddressBookManagement.exe"
+  "AddressBookManagement.exe.manifest"
   "AddressBookManagement.pdb"
-  "CMakeFiles/AddressBookManagement.dir/main.cpp.o"
-  "CMakeFiles/AddressBookManagement.dir/main.cpp.o.d"
+  "CMakeFiles/AddressBookManagement.dir/main.cpp.obj"
+  "CMakeFiles/AddressBookManagement.dir/main.cpp.obj.d"
+  "libAddressBookManagement.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

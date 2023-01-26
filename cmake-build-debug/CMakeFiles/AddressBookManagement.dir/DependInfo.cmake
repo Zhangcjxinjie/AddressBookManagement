@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/j.zhangmark/Documents/GitHub/AddressBookManagement/main.cpp" "CMakeFiles/AddressBookManagement.dir/main.cpp.o" "gcc" "CMakeFiles/AddressBookManagement.dir/main.cpp.o.d"
+  "C:/Users/Xinjie_Zhang/Documents/GitHub/AddressBookManagement/main.cpp" "CMakeFiles/AddressBookManagement.dir/main.cpp.obj" "gcc" "CMakeFiles/AddressBookManagement.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

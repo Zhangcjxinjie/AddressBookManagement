@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "AddressBookManagement"
+			"path" : "AddressBookManagement.exe"
+		},
+		{
+			"path" : "AddressBookManagement.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -35,10 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics"
-				},
-				{
-					"fragment" : "-std=gnu++17"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"language" : "CXX",
@@ -68,12 +68,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "AddressBookManagement",
-	"nameOnDisk" : "AddressBookManagement",
+	"nameOnDisk" : "AddressBookManagement.exe",
 	"paths" : 
 	{
 		"build" : ".",

@@ -1,20 +1,16 @@
-<<<<<<< Updated upstream
-"C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.3.1/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Users\Xinjie Zhang\CLionProjects\AddressBookManagement" -B "C:\Users\Xinjie Zhang\CLionProjects\AddressBookManagement\cmake-build-debug"
-=======
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/j.zhangmark/Documents/GitHub/AddressBookManagement -B /Users/j.zhangmark/Documents/GitHub/AddressBookManagement/cmake-build-debug
--- The C compiler identification is AppleClang 14.0.0.14000029
--- The CXX compiler identification is AppleClang 14.0.0.14000029
+"C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\Xinjie_Zhang\Documents\GitHub\AddressBookManagement -B C:\Users\Xinjie_Zhang\Documents\GitHub\AddressBookManagement\cmake-build-debug
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/gcc.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
->>>>>>> Stashed changes
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/j.zhangmark/Documents/GitHub/AddressBookManagement/cmake-build-debug
+-- Build files have been written to: C:/Users/Xinjie_Zhang/Documents/GitHub/AddressBookManagement/cmake-build-debug
